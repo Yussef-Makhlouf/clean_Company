@@ -1,24 +1,18 @@
 
-body {
+html ,body {
     color: #666666;
     background: #ffffff;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     direction: rtl;
     text-align: right;
-
+    font-size: 16px;
+    line-height: 24px;
     overflow-x: hidden;
-    margin: 0;
-    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0 auto;
 
-    font-size: 14px;
-    line-height: 1.8;
-
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 h1,
@@ -82,7 +76,8 @@ a:focus {
 }
 
 
-
+/*******************************/
+/********** Header CSS *********/
 /*******************************/
 .header {
     position: relative;
@@ -371,6 +366,9 @@ a:focus {
 }
 
 
+/*******************************/
+/******* Page Header CSS *******/
+/*******************************/
 .page-header {
     position: relative;
     margin-bottom: 45px;
@@ -415,7 +413,9 @@ a:focus {
 }
 
 
-
+/*******************************/
+/******* Section Header ********/
+/*******************************/
 .section-header {
     position: relative;
     width: 100%;
@@ -476,7 +476,9 @@ a:focus {
 }
 
 
-
+/*******************************/
+/********** About CSS **********/
+/*******************************/
 .about {
     position: relative;
     width: 100%;
@@ -527,7 +529,8 @@ a:focus {
 }
 
 
-
+/*******************************/
+/********* Service CSS *********/
 /*******************************/
 .service {
     position: relative;
@@ -588,7 +591,8 @@ a:focus {
 }
 
 
-
+/*******************************/
+/********* Feature CSS *********/
 /*******************************/
 .feature {
     position: relative;
@@ -645,7 +649,8 @@ a:focus {
 }
 
 
-
+/*******************************/
+/*********** Team CSS **********/
 /*******************************/
 .team {
     position: relative;
@@ -750,6 +755,8 @@ a:focus {
 }
 
 
+/*******************************/
+/*********** FAQs CSS **********/
 /*******************************/
 .faqs {
     position: relative;
@@ -857,9 +864,260 @@ a:focus {
 }
 
 
+/*******************************/
+/****** Pricing Plan CSS *******/
+/*******************************/
+.price {
+    position: relative;
+    padding: 45px 0 15px 0;
+}
+
+.price .price-item {
+    text-align: center;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+    margin-bottom: 30px;
+}
+
+.price .price-header {
+    padding: 30px 0 50px 0;
+    color: #000000;
+    background: #FFD662;
+    border-radius: 5px 5px 0 0;
+}
+
+.price .featured-item .price-header {
+    color: #ffffff;
+    background: #00539C;
+}
+
+.price .price-icon {
+    margin-bottom: 15px;
+}
+
+.price .price-icon i {
+    display: inline-block;
+    font-size: 45px;
+}
+
+.price .price-title h2 {
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.price .price-pricing h2 {
+    font-size: 60px;
+    font-weight: 100;
+    margin-left: 15px;
+    margin-bottom: 0;
+}
+
+.price .price-pricing h2 small {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 16px;
+    margin-left: -15px;
+}
+
+.price .price-body {
+    padding: 20px 0;
+    background: #ffffff;
+    border-radius: 25px 30px 0 0;
+    margin-top: -30px;
+}
+
+.price .price-des ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.price .price-des ul li {
+    color: #2A293E;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 5px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.price .price-des ul li:last-child {
+    border: none;
+}
+
+.price .price-footer {
+    padding-bottom: 30px;
+    background: #ffffff;
+    border-radius: 0 0 5px 5px;
+}
 
 
+.price .price-action a {
+    display: inline-block;
+    padding: 10px 25px;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 2px;
+    background: #FFD662;
+    border-radius: 5px;
+    transition:  .3s;
+}
 
+.price .price-action a i {
+    margin-right: 5px;
+}
+
+.price .price-action a:hover {
+    color: #ffffff;
+    background: #00539C;
+}
+
+.price .featured-item .price-action a {
+    color: #ffffff;
+    background: #00539C;
+}
+
+.price .featured-item .price-action a:hover {
+    color: #000000;
+    background: #FFD662;
+}
+
+
+/*******************************/
+/********** Newsletter *********/
+/*******************************/
+.newsletter {
+    position: relative;
+    margin: 45px 0;
+    padding: 60px 0;
+    background: #00539C;
+}
+
+.newsletter h2 {
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.newsletter p {
+    margin: 0;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.newsletter .form {
+    position: relative;
+}
+
+.newsletter input {
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter .btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight:400;
+    text-transform: uppercase;
+    color: #000000;
+    background: #FFD662;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.newsletter .btn:hover {
+    color: #ffffff;
+    background: #00539C;
+}
+
+
+/*******************************/
+/******* Testimonial CSS *******/
+/*******************************/
+.testimonial {
+    position: relative;
+    padding: 45px 0;
+}
+
+.testimonial .testimonial-item {
+    position: relative;
+    margin: 0 15px;
+    text-align: center;
+}
+
+.testimonial .testimonial-img {
+    position: relative;
+    margin-bottom: 15px;
+    z-index: 1;
+}
+
+.testimonial .testimonial-item img {
+    margin: 0 auto;
+    width: 150px;
+    border: 15px solid #ffffff;
+    border-radius: 100px;
+}
+
+.testimonial .testimonial-content {
+    position: relative;
+    margin-top: -90px;
+    padding: 100px 25px 25px 25px;
+    text-align: center;
+    background: #FFD662;
+    border-radius: 5px;
+}
+
+.testimonial .testimonial-item p {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.testimonial .testimonial-content h3 {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.testimonial .testimonial-content h4 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.testimonial .owl-nav,
+.testimonial .owl-dots {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.testimonial .owl-dot {
+    display: inline-block;
+    margin: 0 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #FFD662;
+}
+
+.testimonial .owl-dot.active {
+    background: #00539C;
+}
+
+
+/*******************************/
+/*********** Blog CSS **********/
 /*******************************/
 .blog {
     position: relative;
@@ -938,7 +1196,8 @@ a:focus {
 }
 
 
-
+/*******************************/
+/******* Call to Action ********/
 /*******************************/
 .call-to-action {
     position: relative;
@@ -986,9 +1245,264 @@ a:focus {
 }
 
 
+/*******************************/
+/********** Story CSS **********/
+/*******************************/
+.story {
+    position: relative;
+    width: 100%;
+    padding: 45px 0 15px 0;
+}
+
+.story .container {
+    max-width: 960px;
+}
+
+.story .story-container {
+    position: relative;
+    width: 100%;
+}
+
+.story .story-end,
+.story .story-start,
+.story .story-year {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+.story .story-end p,
+.story .story-start p,
+.story .story-year p {
+    display: inline-block;
+    width: 100px;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    background: #FFD662;
+    border: 1px solid #00539C;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.story .story-year {
+    margin: 30px 0;
+}
+
+.story .story-continue {
+    position: relative;
+    width: 100%;
+    padding: 60px 0;
+}
+
+.story .story-continue::before {
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    margin-left: -1.5px;
+    background: #FFD662;
+    border-left: 1px solid #00539C;
+    border-right: 1px solid #00539C;
+}
+
+.story .row.story-left,
+.story .row.story-right .story-date {
+    text-align: right;
+}
+
+.story .row.story-right,
+.story .row.story-left .story-date {
+    text-align: left;
+}
+
+.story .story-date {
+    padding: 0 5px;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 41px 0 0 0;
+}
+
+.story .story-date::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: 42px;
+    background: #FFD662;
+    border: 1px solid #00539C;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.story .row.story-left .story-date::after {
+    left: -8.5px;
+}
+
+.story .row.story-right .story-date::after {
+    right: -8.5px;
+}
+
+.story .story-box,
+.story .story-launch {
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    padding: 20px 25px;
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+    background: #ffffff;
+}
+
+.story .story-launch {
+    width: 100%;
+    margin: 15px 0;
+    padding: 0;
+    border: none;
+    text-align: center;
+    background: transparent;
+}
+
+.story .story-box::after,
+.story .story-box::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.story .row.story-left .story-box::after,
+.story .row.story-left .story-box::before {
+    left: 100%;
+}
+
+.story .row.story-right .story-box::after,
+.story .row.story-right .story-box::before {
+    right: 100%;
+}
+
+.story .story-launch .story-box::after,
+.story .story-launch .story-box::before {
+    left: 50%;
+    margin-left: -10px;
+}
+
+.story .story-box::after {
+    top: 26px;
+    border-color: transparent transparent transparent #ffffff;
+    border-width: 10px;
+}
+
+.story .story-box::before {
+    top: 25px;
+    border-color: transparent transparent transparent #dddddd;
+    border-width: 11px;
+}
+
+.story .row.story-right .story-box::after {
+    border-color: transparent #ffffff transparent transparent;
+}
+
+.story .row.story-right .story-box::before {
+    border-color: transparent #dddddd transparent transparent;
+}
+
+.story .story-launch .story-box::after {
+    top: -20px;
+    border-color: transparent transparent #dddddd transparent;
+}
+
+.story .story-launch .story-box::before {
+    top: -19px;
+    border-color: transparent transparent #ffffff transparent;
+    border-width: 10px;
+    z-index: 1;
+}
+
+.story .story-box .story-text {
+    position: relative;
+    float: left;
+}
+
+.story .story-launch .story-text {
+    max-width: 400px;
+}
+
+.story .story-text h3 {
+    color: #00539C;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.story .story-text p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .story .story-continue::before {
+        left: 48.5px;
+    }
+    
+    .story .story-end,
+    .story .story-start,
+    .story .story-year,
+    .story .row.story-left,
+    .story .row.story-right .story-date,
+    .story .row.story-right,
+    .story .row.story-left .story-date,
+    .story .story-launch {
+        text-align: left;
+    }
+    
+    .story .story-date {
+        padding: 0;
+    }
+    
+    .story .row.story-left .story-date::after,
+    .story .row.story-right .story-date::after {
+        left: 54.5px;
+    }
+    
+    .story .story-box,
+    .story .row.story-right .story-date,
+    .story .row.story-left .story-date {
+        margin-left: 77px;
+    }
+    
+    .story .story-launch .story-box {
+        margin-left: 0;
+    }
+    
+    .story .row.story-left .story-box::after {
+        left: -20px;
+        border-color: transparent #ffffff transparent transparent;
+    }
+
+    .story .row.story-left .story-box::before {
+        left: -22px;
+        border-color: transparent #dddddd transparent transparent;
+    }
+    
+    .story .story-launch .story-box::after,
+    .story .story-launch .story-box::before {
+        left: 30px;
+        margin-left: 0;
+    }
+}
 
 
-
+/*******************************/
+/******** Portfolio CSS ********/
 /*******************************/
 .portfolio {
     position: relative;
@@ -1141,6 +1655,9 @@ a:focus {
 }
 
 
+/*******************************/
+/********* Contact CSS *********/
+/*******************************/
 .contact {
     position: relative;
     width: 100%;
