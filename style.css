@@ -11,7 +11,8 @@ html ,body {
     margin:auto;
     line-clamp: 1;
     text-decoration: none;
-    
+    line-height: 1.9;
+
 
 }
 
@@ -1861,3 +1862,64 @@ a:focus {
    .call-float:hover {
      transform: scale(1.1);
    }
+    /* Main Offer Section Styles */
+    .offer-section {
+        background-color: #00539C; /* Blue background */
+        color: #fff; /* White text */
+        padding: 40px 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+    
+      /* Highlight discount */
+      .highlight {
+        color: #FFD700; /* Gold color for emphasis */
+        font-weight: bold;
+      }
+    
+      .offer-section h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+    
+      .offer-section p {
+        font-size: 18px;
+        line-height: 1.6;
+      }
+    
+      /* Images Section Styling */
+      .image-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    
+      /* Mosque Image Styling */
+      .mosque-image {
+        max-height: 400px;
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+        
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        
+      }
+    
+ 
+      /* Responsive adjustments */
+      @media (max-width: 768px) {
+        .offer-section h2 {
+          font-size: 20px;
+        }
+    
+        .offer-section p {
+          font-size: 16px;
+        }
+    
+        .mosque-image {
+          max-height: 300px;
+        }
+    
+        .discount-badge {
+          max-width: 70%;
+        }
+      }
